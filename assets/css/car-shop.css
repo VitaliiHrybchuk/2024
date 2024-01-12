@@ -25,7 +25,7 @@ h1{
 .brends{
   font-size: 26px;
   font-weight: 700;
-  text-align: center;
+  /* text-align: center; */
   margin-top: -70px;
   color: brown;
 }
