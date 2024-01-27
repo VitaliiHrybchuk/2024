@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+  margin-top: 5px;
+}
 img {
   width: 10vw;
   height: 17vh;
@@ -24,7 +28,6 @@ h1 {
 .brends {
   font-size: 26px;
   font-weight: 700;
-  /* text-align: center; */
   margin-top: -70px;
   color: brown;
 }
@@ -42,13 +45,65 @@ datalist {
   margin-left: 40px;
 }
 .price {
-  width: 200px;
+  width: 185px;
 }
-.Car-info,
-.Contacts,
-.Personal-info{
-  display:
-  
-  
+.container-car-info,
+.container-contacts,
+.container-personal-info{
+  display:flex;
+  width: 333px;
+  }
 
-}
+  .form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  #First-Name,
+  #Last-Name,
+  #birth{
+    display:flexbox;
+    align-items: flex-end;
+    width: 170px;
+  }
+    .birth{
+      margin-right: 13px;
+    }
+  .gender{
+    margin-right: 40px;
+  }
+  .drive{
+    display: flex;
+  }
+  #number{
+    margin-left: 10px;
+    width: 125px;
+    height: 90px;
+  }
+  #email,
+  #textarea,
+  #tel{
+    display: flexbox;
+        width: 210px;
+  }
+  #email,
+  #tel{
+margin-left: 12px;
+  }
+  #mod,
+  #sel{
+    display: flexbox;
+    width: 140px;
+    margin-left: 80px;
+  }
+  .ok{
+    flex-wrap: wrap;
+  }
+  #ok{
+      margin-left: 50px;
+    width: 60px;
+      }
+      .color-list{
+        display: flex;
+      }
