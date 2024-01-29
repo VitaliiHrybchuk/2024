@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin-top: 5px;
 }
@@ -49,61 +49,64 @@ datalist {
 }
 .container-car-info,
 .container-contacts,
-.container-personal-info{
-  display:flex;
+.container-personal-info {
+  display: flex;
   width: 333px;
-  }
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+#first-Name,
+#last-Name,
+#birth {
+  display: flexbox;
+  align-items: flex-end;
+  width: 170px;
+}
+.birth {
+  margin-right: 13px;
+}
+.gender {
+  margin-right: 40px;
+}
+.drive {
+  display: flex;
+}
+#number {
+  margin-left: 10px;
+  width: 125px;
+  height: 90px;
+}
+#email,
+#textarea,
+#tel {
+  display: flexbox;
+  width: 210px;
+}
+#email,
+#tel {
+  margin-left: 12px;
+}
+#mod,
+#sel {
+  display: flexbox;
+  width: 140px;
+  margin-left: 80px;
+}
+.ok,
+.cancel {
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-top: 10px;
+  width: 60px;
+  border: 2px solid black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 3px;
+}
+.color-list {
+  display: flex;
+}
 
-  .form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-  }
-  #First-Name,
-  #Last-Name,
-  #birth{
-    display:flexbox;
-    align-items: flex-end;
-    width: 170px;
-  }
-    .birth{
-      margin-right: 13px;
-    }
-  .gender{
-    margin-right: 40px;
-  }
-  .drive{
-    display: flex;
-  }
-  #number{
-    margin-left: 10px;
-    width: 125px;
-    height: 90px;
-  }
-  #email,
-  #textarea,
-  #tel{
-    display: flexbox;
-        width: 210px;
-  }
-  #email,
-  #tel{
-margin-left: 12px;
-  }
-  #mod,
-  #sel{
-    display: flexbox;
-    width: 140px;
-    margin-left: 80px;
-  }
-  .ok{
-    flex-wrap: wrap;
-  }
-  #ok{
-      margin-left: 50px;
-    width: 60px;
-      }
-      .color-list{
-        display: flex;
-      }
